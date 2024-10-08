@@ -80,6 +80,8 @@ fn main() {
 
     // 3rd way of handling errors
     main1().expect("It could not handle this function");
+
+   
 }
 
 fn main1() -> Result<(), Error> {
