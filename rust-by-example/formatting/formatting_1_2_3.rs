@@ -28,6 +28,7 @@ impl Display for City {
     }
 }
 
+// ACTIVITY
 #[derive(Debug)]
 struct Color {
     red: u8,
