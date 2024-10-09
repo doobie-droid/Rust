@@ -1,0 +1,6 @@
+# The first line tells git to ignore everything
+*
+# The second line tells git not to ignore anything that is a directory
+!*/ 
+# The third line tells git not to ignore anything that has an extension
+!*.*
