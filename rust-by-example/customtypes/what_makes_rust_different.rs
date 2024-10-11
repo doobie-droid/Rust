@@ -27,6 +27,14 @@ struct Rectangle {
     bottom_right: Point,
 }
 
+enum VeryVerboseEnumOfThingsToDoWithNumbers {
+    Add,
+    Subtract,
+}
+
+// the type alias is used to give a simple suitable name to a complex enum
+type Operations = VeryVerboseEnumOfThingsToDoWithNumbers;
+
 fn main() {
     // Instantiate a `Point`
     let point: Point = Point { x: 10.3, y: 0.4 };
@@ -50,4 +58,7 @@ fn main() {
 
     println!("The left edge is  {}", left_edge);
     println!("The top edge is  {}", top_edge);
+
+    //we have what we call type aliases that could be used to refer to an enum that has a very long or generic name
+    let addEnum = Operations::Add;
 }
