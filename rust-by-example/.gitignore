@@ -4,3 +4,6 @@
 !*/ 
 # The third line tells git not to ignore anything that has an extension
 !*.*
+
+/target
+**/target*/*
